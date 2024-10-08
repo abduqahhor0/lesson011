@@ -1,0 +1,110 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+img {
+    max-width: 100%;
+ }
+ a {
+    color: inherit;
+    text-decoration: inherit;
+ }
+ li {
+    list-style: none;
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+    justify-content: space-around;
+ }
+ .navbar__collection{
+    display: flex;
+    gap: 44px;
+ }
+ .navbar__btn{
+    width: 100px;
+    height: 30px;
+    background: #F35F2F;
+    border: none;
+    border-radius: 6px;
+    color: white;
+ }
+ .desc{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+ }
+.hero__wrapper{
+    display: flex;
+    margin-bottom: 48px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+.card{
+    width: 200px;
+    height: auto;
+    background: #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    gap: 44px;
+}
+.card__btn{
+    border: none;
+    border-radius: 30px;
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+.card__two{
+    width: 300px;
+    height: 270px;
+    margin-bottom: 28px;
+    background: #ddd;
+    text-align: center;
+}
+.btn{
+    width: 180px;
+    height: 30px;
+    background: #F35F2F;
+    color: white; 
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__three{
+    width: 280px;
+    height: 400px;
+    border-radius: 6px;
+    background: #ddd;
+    text-align: center;
+}
+.image{
+    margin-top: 0;
+}
+.icons{
+    margin-top: 0;
+}
